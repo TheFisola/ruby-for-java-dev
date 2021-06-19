@@ -8,7 +8,8 @@
 
 ```// Java:```
 
-```int num = 1;
+```
+int num = 1;
 float numFloat = 1.0;
 int[] numArray = {1,2,3};
 String text = "Random text";
@@ -16,16 +17,18 @@ String text = "Random text";
 Map<Object, Object> dictionary = Map.of(
 "a", "b",
 "c", "d"
-);```
+);
+```
 
-````// Ruby:```
+```// Ruby:```
 
 ```
 num = 1
 num_float = 1.0
 num_array = [1,2,3]
 text = "Random text"
-dictionary = {"a" => "b","c" => "d"}```
+dictionary = {"a" => "b","c" => "d"}
+```
 
 
 Note: From Java 10 local variables can be defined using the 'var' keyword e.g;
@@ -37,9 +40,11 @@ Note: From Java 10 local variables can be defined using the 'var' keyword e.g;
 
 ```// Java:```
 
-```public String returnText(String text){
+```
+public String returnText(String text){
     return text;
-}```
+}
+```
 
 ```// Ruby:```
 
@@ -51,10 +56,13 @@ end
 
 
 **- Class**
+
 ```// Java:```
 
-```public class Animal{
-}```
+```
+public class Animal{
+}
+```
 
 ```// Ruby:```
 
@@ -67,8 +75,10 @@ end
 
 ```// Java:```
 
-```public class Dog extends Animal{
-}```
+```
+public class Dog extends Animal{
+}
+```
 
 ```// Ruby:```
 
@@ -85,6 +95,7 @@ end
 
 ```// Ruby:```
 
-```person = Person.new
+```
+person = Person.new
 ```
 
