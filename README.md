@@ -2,9 +2,32 @@
 
 #### Showing Ruby syntax and the Java equivalent
 
+### **- Comments**
 
-**- Variables**
+```// Java:```
 
+```
+// Single line comment
+
+/** Multi
+    Line
+    Comment
+**/
+```
+
+```// Ruby:```
+
+```
+# Single line comment
+
+=begin
+    Multi
+    Line
+    Comment
+=end
+```
+
+### **- Variables**
 
 ```// Java:```
 
@@ -30,13 +53,11 @@ text = "Random text"
 dictionary = {"a" => "b","c" => "d"}
 ```
 
-
 Note: From Java 10 local variables can be defined using the 'var' keyword e.g;
 
 ```var text = "Random text"```
 
-
-**- Methods**
+### **- Methods**
 
 ```// Java:```
 
@@ -54,8 +75,7 @@ def return_text(text)
 end
 ```
 
-
-**- Class**
+### **- Class**
 
 ```// Java:```
 
@@ -71,7 +91,7 @@ class Animal
 end
 ```
 
-**- Class Inheritance**
+### **- Class Inheritance**
 
 ```// Java:```
 
@@ -87,7 +107,7 @@ class Dog > Animal
 end
 ```
 
-**- Creating Instance of a Class**
+### **- Creating Instance of a Class**
 
 ```// Java:```
 
@@ -101,3 +121,32 @@ Person person = new Person();
 person = Person.new
 ```
 
+### **- Reference To Current Instance of an Object**
+
+```// Java:```
+
+```
+public class Animal{
+ private void eat(){
+    // eat
+ }
+ 
+ public void callEat(){
+    this.eat();
+ }
+}
+```
+
+```// Ruby:```
+
+```
+class Animal
+    def eat
+        # eat
+    end
+
+    def call_eat
+        self.eat
+    end    
+end
+```
