@@ -91,7 +91,9 @@ end
 
 ```// Java:```
 
-```Person person = new Person();```
+```
+Person person = new Person();
+```
 
 ```// Ruby:```
 
