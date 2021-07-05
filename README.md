@@ -2,7 +2,22 @@
 
 #### Showing Ruby syntax and the Java equivalent
 
-### **- Comments**
+# Table of Contents
+1. [Comments](#comments)
+2. [Variables](#variables)
+3. [Methods](#methods)
+4. [Class](#class)
+5. [Class Inheritance](#class-inheritance)
+6. [Constructor](#constructor)
+7. [Creating Instance of a Class](#creating-instance-of-a-class)
+8. [Getters And Setters](#getters-and-setters)
+9. [Reference To Current Instance of an Object](#reference)
+10. [(Switch) Case (When) statements](#switch)
+11. [If/Else Statements](#if-else-statement)
+12. [Print/Print Line](#print)
+13. [Throw/Catch Exceptions](#exceptions)
+
+## Comments <a name="comments"></a>
 
 ```// Java:```
 
@@ -27,7 +42,7 @@
 =end
 ```
 
-### **- Variables**
+## Variables <a name="variables"></a>
 
 ```// Java:```
 
@@ -59,7 +74,7 @@ Note: From Java 10 local variables can be defined using the 'var' keyword e.g;
 
 ```var text = "Random text"```
 
-### **- Methods**
+## Methods <a name="methods"></a>
 
 ```// Java:```
 
@@ -77,7 +92,7 @@ def return_text(text)
 end
 ```
 
-### **- Class**
+## Class <a name="class"></a>
 
 ```// Java:```
 
@@ -93,7 +108,7 @@ class Animal
 end
 ```
 
-### **- Class Inheritance**
+## Class Inheritance <a name="class-inheritance"></a>
 
 ```// Java:```
 
@@ -110,7 +125,7 @@ end
 ```
 
 
-### **- Constructor **
+## Constructor <a name="constructor"></a>
 ```// Java:```
 
 ```
@@ -132,7 +147,7 @@ end
   end
 ```
 
-### **- Creating Instance of a Class**
+## Creating Instance of a Class <a name="creating-instance-of-a-class"></a>
 
 ```// Java:```
 
@@ -146,7 +161,7 @@ Person person = new Person();
 person = Person.new
 ```
 
-### ** Getters And Setters **
+## Getters And Setters <a name="getters-and-setters"></a>
 ```// Java:```
 
 ```
@@ -194,7 +209,7 @@ person = Person.new
   
 ```
 
-### **- Reference To Current Instance of an Object**
+## Reference To Current Instance of an Object <a name="reference"></a>
 
 ```// Java:```
 
@@ -224,7 +239,7 @@ class Animal
 end
 ```
 
-### **- (Switch) Case (When) statements **
+## (Switch) Case (When) statements <a name="switch"></a>
 
 ```// Java:```
 
@@ -263,7 +278,7 @@ case age
 end    
 ```
 
-### **- If/Else Statements **
+## If/Else Statements <a name="if-else-statement"></a>
 ```// Java:```
 
 ```
@@ -289,7 +304,7 @@ end
   end
 ```
 
-### **- Print/Print Line **
+## Print/Print Line <a name="print"></a>
 ```// Java:```
 
 ```
@@ -306,7 +321,7 @@ end
 ```
 
 
-### **- Throw/Catch Exceptions **
+## Throw/Catch Exceptions  <a name="exceptions"></a>
 ```// Java:```
 
 ```
